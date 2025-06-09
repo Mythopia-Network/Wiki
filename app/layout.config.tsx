@@ -1,4 +1,4 @@
-import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
+import type { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
 
 /**
  * Shared layout configurations
@@ -19,10 +19,23 @@ export const baseOptions: BaseLayoutProps = {
         >
           <circle cx={12} cy={12} r={12} fill="currentColor" />
         </svg>
-        My App
+        Mythopia
       </>
     ),
   },
   // see https://fumadocs.dev/docs/ui/navigation/links
-  links: [],
+  links: [
+    {
+      text: "Discord",
+      url: "https://discord.mythopia.xyz",
+    },
+    {
+      text: "Status",
+      url: "https://status.mythopia.xyz/status/default",
+    },
+    {
+      text: "Modrinth",
+      url: "https://modrinth.com/organization/mythopia",
+    },
+  ],
 };
