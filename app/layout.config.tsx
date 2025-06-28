@@ -37,5 +37,9 @@ export const baseOptions: BaseLayoutProps = {
       text: "Modrinth",
       url: "https://modrinth.com/organization/mythopia",
     },
+    {
+      text: "Edit on GitHub",
+      url: "https://github.com/Mythopia-Network/Wiki/tree/main/content/docs",
+    },
   ],
 };
